@@ -1,7 +1,7 @@
 import React from "react";
 
 const SwatahViewer = () => {
-    const resumeUrl = "/pdf/udit_qr.pdf"; // URL of the Swatah in the public/pdf folder
+    const resumeUrl = "/pdf/Swatah.pdf"; // URL of the Swatah in the public/pdf folder
 
     // Responsive styles based on screen size
     const containerStyle = {
@@ -38,7 +38,7 @@ const SwatahViewer = () => {
                     frameBorder="0"
                 ></iframe>
             </div>
-            <div style={{ marginTop: '20px' }}>                <a href={resumeUrl} download="udit_swatah.pdf">
+            <div style={{ marginTop: '20px' }}>                <a href={resumeUrl} download="Swatah.pdf">
                     <button style={{ 
                         padding: '12px 24px', 
                         fontSize: '16px', 
