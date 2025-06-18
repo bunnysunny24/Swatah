@@ -2,14 +2,17 @@
 
 # dependencies
 /node_modules
+/myapp/node_modules
 /.pnp
 .pnp.js
 
 # testing
 /coverage
+/myapp/coverage
 
 # production
 /build
+/myapp/build
 
 # misc
 .DS_Store
@@ -17,7 +20,27 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Python related
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
